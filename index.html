@@ -6,6 +6,9 @@
   <title>Pancasila AI • Etika Pancasila di Era Kecerdasan Buatan</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <style>
     body { font-family: 'Inter', system-ui, sans-serif; }
     .hero-bg {
@@ -27,10 +30,7 @@
     }
   </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
-
-  <!-- Navbar -->
-  <nav class="navbar bg-white/95 border-b sticky top-0 z-50">
+<body class="bg-gray-50 text-gray-800 overflow-x-hidden"> <nav class="navbar bg-white/95 border-b sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
       <div class="flex items-center gap-3">
         <img src="garuda.png" alt="Garuda Pancasila" class="garuda">
@@ -50,7 +50,6 @@
     </div>
   </nav>
 
-  <!-- Hero -->
   <section id="beranda" class="hero-bg h-screen flex items-center text-white">
     <div class="max-w-5xl mx-auto px-6 text-center">
       <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-6 py-2 rounded-full mb-6">
@@ -71,32 +70,31 @@
     </div>
   </section>
 
-  <!-- Pancasila Overview -->
   <section id="pancasila" class="py-20 bg-white">
     <div class="max-w-6xl mx-auto px-6">
-      <div class="text-center mb-16">
+      <div class="text-center mb-16" data-aos="fade-up">
         <h3 class="text-red-600 font-semibold tracking-widest">LIMA PILAR BANGSA</h3>
         <h2 class="text-4xl font-bold mt-3">Pancasila sebagai Fondasi Etika AI</h2>
       </div>
       
       <div class="grid md:grid-cols-5 gap-8">
-        <div class="sila-card bg-gradient-to-br from-red-50 to-white border border-red-100 p-8 rounded-3xl text-center">
+        <div class="sila-card bg-gradient-to-br from-red-50 to-white border border-red-100 p-8 rounded-3xl text-center" data-aos="fade-up" data-aos-delay="100">
           <div class="text-5xl mb-4">⭐</div>
           <h4 class="font-bold">Ketuhanan Yang Maha Esa</h4>
         </div>
-        <div class="sila-card bg-gradient-to-br from-red-50 to-white border border-red-100 p-8 rounded-3xl text-center">
+        <div class="sila-card bg-gradient-to-br from-red-50 to-white border border-red-100 p-8 rounded-3xl text-center" data-aos="fade-up" data-aos-delay="200">
           <div class="text-5xl mb-4">🔗</div>
           <h4 class="font-bold">Kemanusiaan yang Adil dan Beradab</h4>
         </div>
-        <div class="sila-card bg-gradient-to-br from-red-50 to-white border border-red-100 p-8 rounded-3xl text-center">
+        <div class="sila-card bg-gradient-to-br from-red-50 to-white border border-red-100 p-8 rounded-3xl text-center" data-aos="fade-up" data-aos-delay="300">
           <div class="text-5xl mb-4">🌳</div>
           <h4 class="font-bold">Persatuan Indonesia</h4>
         </div>
-        <div class="sila-card bg-gradient-to-br from-red-50 to-white border border-red-100 p-8 rounded-3xl text-center">
+        <div class="sila-card bg-gradient-to-br from-red-50 to-white border border-red-100 p-8 rounded-3xl text-center" data-aos="fade-up" data-aos-delay="400">
           <div class="text-5xl mb-4">🐃</div>
           <h4 class="font-bold">Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan</h4>
         </div>
-        <div class="sila-card bg-gradient-to-br from-red-50 to-white border border-red-100 p-8 rounded-3xl text-center">
+        <div class="sila-card bg-gradient-to-br from-red-50 to-white border border-red-100 p-8 rounded-3xl text-center" data-aos="fade-up" data-aos-delay="500">
           <div class="text-5xl mb-4">🌾</div>
           <h4 class="font-bold">Keadilan Sosial</h4>
         </div>
@@ -104,9 +102,8 @@
     </div>
   </section>
 
-  <!-- Pendahuluan -->
   <section id="pendahuluan" class="py-20 bg-white">
-    <div class="max-w-4xl mx-auto px-6">
+    <div class="max-w-4xl mx-auto px-6" data-aos="fade-up">
       <div class="text-center mb-12">
         <h2 class="text-4xl font-bold mb-4">Mengapa Pancasila Masih Sangat Relevan di Era AI?</h2>
       </div>
@@ -124,18 +121,16 @@
     </div>
   </section>
 
-  <!-- Penerapan AI Lengkap -->
   <section id="penerapan" class="py-20 bg-gray-100">
     <div class="max-w-6xl mx-auto px-6">
-      <div class="text-center mb-16">
+      <div class="text-center mb-16" data-aos="fade-up">
         <h2 class="text-4xl font-bold">Penerapan Pancasila dalam Pengembangan & Penggunaan AI</h2>
         <p class="mt-3 text-gray-600">Panduan etis bagi developer, perusahaan teknologi, dan masyarakat Indonesia</p>
       </div>
 
       <div class="space-y-20">
-        <!-- Sila 1 -->
         <div class="grid md:grid-cols-2 gap-12 items-center">
-          <div>
+          <div data-aos="fade-right">
             <div class="flex items-center gap-4 mb-6">
               <span class="text-5xl">⭐</span>
               <h3 class="text-3xl font-bold text-red-600">Ketuhanan Yang Maha Esa</h3>
@@ -147,12 +142,11 @@
               <li class="flex gap-3"><i class="fas fa-check text-emerald-600 mt-1"></i> Nilai spiritual dalam pengambilan keputusan AI</li>
             </ul>
           </div>
-          <div class="bg-white p-10 rounded-3xl shadow-xl text-8xl text-center">⭐</div>
+          <div class="bg-white p-10 rounded-3xl shadow-xl text-8xl text-center" data-aos="fade-left">⭐</div>
         </div>
 
-        <!-- Sila 2 -->
         <div class="grid md:grid-cols-2 gap-12 items-center">
-          <div class="md:order-last">
+          <div class="md:order-last" data-aos="fade-left">
             <div class="flex items-center gap-4 mb-6">
               <span class="text-5xl">🔗</span>
               <h3 class="text-3xl font-bold text-red-600">Kemanusiaan yang Adil dan Beradab</h3>
@@ -164,12 +158,11 @@
               <li class="flex gap-3"><i class="fas fa-check text-emerald-600 mt-1"></i> Dukung kesehatan mental</li>
             </ul>
           </div>
-          <div class="bg-white p-10 rounded-3xl shadow-xl text-8xl text-center">🔗</div>
+          <div class="bg-white p-10 rounded-3xl shadow-xl text-8xl text-center" data-aos="fade-right">🔗</div>
         </div>
 
-        <!-- Sila 3 -->
         <div class="grid md:grid-cols-2 gap-12 items-center">
-          <div>
+          <div data-aos="fade-right">
             <div class="flex items-center gap-4 mb-6">
               <span class="text-5xl">🌳</span>
               <h3 class="text-3xl font-bold text-red-600">Persatuan Indonesia</h3>
@@ -181,12 +174,11 @@
               <li class="flex gap-3"><i class="fas fa-check text-emerald-600 mt-1"></i> Kurangi echo chamber</li>
             </ul>
           </div>
-          <div class="bg-white p-10 rounded-3xl shadow-xl text-8xl text-center">🌳</div>
+          <div class="bg-white p-10 rounded-3xl shadow-xl text-8xl text-center" data-aos="fade-left">🌳</div>
         </div>
 
-        <!-- Sila 4 -->
         <div class="grid md:grid-cols-2 gap-12 items-center">
-          <div class="md:order-last">
+          <div class="md:order-last" data-aos="fade-left">
             <div class="flex items-center gap-4 mb-6">
               <span class="text-5xl">🐃</span>
               <h3 class="text-3xl font-bold text-red-600">Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan</h3>
@@ -197,12 +189,11 @@
               <li class="flex gap-3"><i class="fas fa-check text-emerald-600 mt-1"></i> Regulasi berbasis musyawarah</li>
             </ul>
           </div>
-          <div class="bg-white p-10 rounded-3xl shadow-xl text-8xl text-center">🐃</div>
+          <div class="bg-white p-10 rounded-3xl shadow-xl text-8xl text-center" data-aos="fade-right">🐃</div>
         </div>
 
-        <!-- Sila 5 -->
         <div class="grid md:grid-cols-2 gap-12 items-center">
-          <div>
+          <div data-aos="fade-right">
             <div class="flex items-center gap-4 mb-6">
               <span class="text-5xl">🌾</span>
               <h3 class="text-3xl font-bold text-red-600">Keadilan Sosial bagi Seluruh Rakyat Indonesia</h3>
@@ -214,36 +205,35 @@
               <li class="flex gap-3"><i class="fas fa-check text-emerald-600 mt-1"></i> Akses teknologi yang adil</li>
             </ul>
           </div>
-          <div class="bg-white p-10 rounded-3xl shadow-xl text-8xl text-center">🌾</div>
+          <div class="bg-white p-10 rounded-3xl shadow-xl text-8xl text-center" data-aos="fade-left">🌾</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Kasus Nyata -->
   <section id="kasus" class="py-20 bg-white">
     <div class="max-w-6xl mx-auto px-6">
-      <div class="text-center mb-16">
+      <div class="text-center mb-16" data-aos="fade-up">
         <h2 class="text-4xl font-bold">Kasus Nyata di Indonesia</h2>
         <p class="mt-3 text-gray-600">Contoh nyata penyalahgunaan AI dan relevansinya dengan Pancasila</p>
       </div>
       <div class="grid md:grid-cols-2 gap-8">
-        <div class="border border-gray-200 p-8 rounded-3xl hover:shadow-xl transition">
+        <div class="border border-gray-200 p-8 rounded-3xl hover:shadow-xl transition" data-aos="zoom-in" data-aos-delay="100">
           <h3 class="font-bold text-xl mb-3">Deepfake Presiden Prabowo (2025)</h3>
           <p class="text-gray-600">Penjahat menggunakan deepfake video Presiden untuk penipuan bantuan sosial.</p>
           <p class="text-sm mt-4 text-red-600">→ Melanggar Sila 2 & Sila 3</p>
         </div>
-        <div class="border border-gray-200 p-8 rounded-3xl hover:shadow-xl transition">
+        <div class="border border-gray-200 p-8 rounded-3xl hover:shadow-xl transition" data-aos="zoom-in" data-aos-delay="200">
           <h3 class="font-bold text-xl mb-3">Deepfake Penipuan Baim Wong & Pejabat</h3>
           <p class="text-gray-600">Suara dan wajah selebriti dikloning untuk penipuan giveaway dan investasi bodong.</p>
           <p class="text-sm mt-4 text-red-600">→ Melanggar Sila 2 & Sila 5</p>
         </div>
-        <div class="border border-gray-200 p-8 rounded-3xl hover:shadow-xl transition">
+        <div class="border border-gray-200 p-8 rounded-3xl hover:shadow-xl transition" data-aos="zoom-in" data-aos-delay="100">
           <h3 class="font-bold text-xl mb-3">Deepfake Porno Non-Konsensual</h3>
           <p class="text-gray-600">Banyak perempuan Indonesia menjadi korban konten pornografi palsu menggunakan AI.</p>
           <p class="text-sm mt-4 text-red-600">→ Melanggar Sila 2 (Kemanusiaan yang Adil dan Beradab)</p>
         </div>
-        <div class="border border-gray-200 p-8 rounded-3xl hover:shadow-xl transition">
+        <div class="border border-gray-200 p-8 rounded-3xl hover:shadow-xl transition" data-aos="zoom-in" data-aos-delay="200">
           <h3 class="font-bold text-xl mb-3">Hoaks Politik Jelang Pemilu</h3>
           <p class="text-gray-600">Deepfake tokoh politik digunakan untuk memecah belah masyarakat.</p>
           <p class="text-sm mt-4 text-red-600">→ Melanggar Sila 3 & Sila 4</p>
@@ -252,18 +242,16 @@
     </div>
   </section>
 
-  <!-- Penutup -->
   <section id="penutup" class="py-20 bg-gradient-to-br from-red-600 to-red-800 text-white">
-    <div class="max-w-4xl mx-auto px-6 text-center">
+    <div class="max-w-4xl mx-auto px-6 text-center" data-aos="fade-up">
       <h2 class="text-4xl font-bold mb-8">Mari Jadikan Pancasila Kompas AI Kita</h2>
       <p class="text-xl leading-relaxed">Teknologi akan terus berkembang, tetapi nilai-nilai luhur Pancasila harus tetap menjadi pondasi moral bangsa di era digital.</p>
       <p class="mt-10 text-lg italic">"AI yang cerdas tanpa Pancasila hanyalah alat tanpa jiwa."</p>
     </div>
   </section>
 
-  <!-- Referensi -->
   <section class="py-20 bg-white">
-    <div class="max-w-6xl mx-auto px-6">
+    <div class="max-w-6xl mx-auto px-6" data-aos="fade-up">
       <h2 class="text-3xl font-bold text-center mb-10">Referensi & Sumber Materi</h2>
       <div class="grid md:grid-cols-2 gap-6 text-sm">
         <div>
@@ -287,13 +275,21 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="bg-gray-900 text-white py-16">
     <div class="max-w-6xl mx-auto px-6 text-center">
       <img src="garuda.png" alt="Garuda Pancasila" class="mx-auto mb-6 w-20">
       <p class="text-gray-400">Dibuat dengan semangat kebangsaan • 2026</p>
     </div>
   </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000, // Durasi animasi (1 detik)
+      once: true,     // Animasi hanya berjalan 1 kali saat di-scroll ke bawah
+      offset: 120,    // Jarak piksel pemicu animasi dari bawah layar
+    });
+  </script>
 
 </body>
 </html>
